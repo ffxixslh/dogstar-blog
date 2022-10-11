@@ -1,0 +1,36 @@
+Arguments: 
+  F:\nodeJs\node.exe F:\nodeJs\node_global\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\WINDOWSsystem32;C:\WINDOWS;C:\WINDOWSSystem32Wbem;C:\windows\system32\;F:\nodeJs\;F:\nodeJs\node_global\bin;C:\Program Files\Git\cmd;D:\MongoDB\bin;F:\Python 3.8.5\Scripts\;F:\Python 3.8.5\;C:\Users\12230\AppData\Local\Microsoft\WindowsApps;F:\IntelliJ IDEA Community Edition 2020.1.3\bin;C:\Users\12230\AppData\Roaming\Python\Python38\Scripts;F:\PyCharm Community Edition 2020.3.5\bin;F:\Microsoft VS Code\Microsoft VS Code\bin;C:\Program Files\Bandizip\;D:\IntelliJ IDEA 2021.3.3\bin;F:\nodeJs\node_global;C:\Users\12230\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Java\jre1.8.0_121\jre\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (F:\nodeJs\node_global\node_modules\yarn\lib\cli.js:137143:13)
+      at Interface.emit (node:events:520:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:520:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
